@@ -1,0 +1,47 @@
+
+
+.scrbox{
+    display: flex;
+    justify-content: left;
+}
+
+.imgBox{
+    width: fit-content;
+    height: 1000px;
+    padding: 35px;
+}
+
+.imgBox img{
+    height: 800px;
+    width: 600px;
+    float: left;
+
+}
+
+.textBoxes{
+    margin-top: 20px;
+}
+
+.textBoxes p {
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 400px;
+    position: relative;
+    border-radius: 25px;
+    -webkit-animation: fadein 3s;
+    animation: fadein, slidein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes fadein{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes slidein{
+    from {right: -100px}
+    to {right: 0px}
+}

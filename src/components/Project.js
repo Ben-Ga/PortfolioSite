@@ -16,7 +16,7 @@ const Project = (props) => {
           <h4>{props.projectTitle}</h4>
           <p>{props.projectDesc}</p>
         </div>
-      ) : <img src={props.img} style={{width: 'inherit', height: 'height'}}/>}
+      ) : <img src={props.img} alt={"tempAlt"} style={{width: 'inherit', height: 'inherit', borderRadius: '20px'}}/>}
     </div>
   );
 };

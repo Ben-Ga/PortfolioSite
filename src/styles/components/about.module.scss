@@ -19,4 +19,10 @@
     font-size: x-large;
 }
 
+@media only scrren and (max-width: 600px){
+    .aboutContainer{
+        width: $mobileWidth;
+    }
+}
+
 

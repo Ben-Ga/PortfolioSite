@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import SkillsPage from './SkillsPage'
 import ProjectPage from './ProjectPage'
 import ContactPage from './ContactPage'
+import NUScript from './NUScript'
 
 
 const Layout = () => {
@@ -29,6 +30,9 @@ const Layout = () => {
                     </Route>
                     <Route exact path='/'>
                         <About/>
+                    </Route>
+                    <Route exact path='/projects/nuscript/'>
+                        <NUScript/>
                     </Route>
                 </Switch>
             </BrowserRouter>

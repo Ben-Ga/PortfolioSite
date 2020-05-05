@@ -3,7 +3,7 @@ import React from "react";
 import classes from "../styles/containers/projects.module.scss";
 import Project from "../components/Project";
 
-import projectPic from '../res/javalogo.png'
+import projectPic from '../res/NUScriptLogo.JPG'
 
 import {Link} from 'react-router-dom'
 
