@@ -1,0 +1,31 @@
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #5CDB96;
+    color: #05386b;
+    height: 3em;
+    margin-bottom: 3rem;
+    border-radius: 1px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.nav div{
+    padding: 5px;
+
+}
+
+
+.nav div:hover{
+    opacity: 0.6;
+    transition-duration: 300ms;
+    transform: scale(1.3,1.3);
+    color: lightyellow;
+}
+
+.nav a{
+    text-decoration: none;
+    color: inherit;
+}

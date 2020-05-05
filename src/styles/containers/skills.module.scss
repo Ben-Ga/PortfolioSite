@@ -1,0 +1,9 @@
+@import '../vars/containervars.scss';
+
+
+.skillContainer{
+    width: $containerWidths;
+    margin: $containerMargins;
+    background-color:  $containerBColor;
+    text-align: left;
+}
