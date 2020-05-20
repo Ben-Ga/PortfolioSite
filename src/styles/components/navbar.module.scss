@@ -12,7 +12,7 @@
     font-weight: 500;
 }
 
-.nav div{
+.nav {
     padding: 5px;
 
 }
@@ -28,4 +28,14 @@
 .nav a{
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width: 500px) {
+    .nav a{
+        display: none;
+    }
+
+    .nav{
+        display: inline-block;
+    }
 }
