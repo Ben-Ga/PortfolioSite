@@ -1,30 +1,35 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import Menu from "../UI/SideDrawer/Menu";
+import classes from "../../styles/containers/navitems.module.scss";
+import NavItem from "../NavItems/NavItem";
 
-import classes from "../styles/components/navbar.module.scss";
-
-const Navbar = (props) => {
+const NavItems = (props) => {
   return (
-    <div>
-      <nav className={classes.nav}>
-        <Menu clicked={props.showSidedrawer} />
+    <ul className={classes.navitems}>
+      <NavItem>
         <Link to="/">
           <div>About</div>
         </Link>
+      </NavItem>
+      <NavItem>
         <Link to="/skills">
           <div>Skills</div>
         </Link>
+      </NavItem>
+      <NavItem>
+        {" "}
         <Link to="/projects">
           <div>Projects</div>
         </Link>
+      </NavItem>
+      <NavItem>
         <Link to="/contact">
           <div>Contact & Socials</div>
         </Link>
-      </nav>
-    </div>
+      </NavItem>
+    </ul>
   );
 };
 
-export default Navbar;
+export default NavItems;

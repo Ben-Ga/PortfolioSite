@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
@@ -10,14 +10,23 @@ import SkillsPage from './SkillsPage'
 import ProjectPage from './ProjectPage'
 import ContactPage from './ContactPage'
 import NUScript from './NUScript'
+import SideDrawer from '../UI/SideDrawer/SideDrawer'
 
 
 const Layout = () => {
+
+
+    const [showSideDrawer, setShow] = useState(false);
+
+    const closeSideDrawerHandler = () => {
+        setShow(! showSideDrawer)
+    }
     return (
         <Auxiliary>
             <BrowserRouter>
-                <Navbar/>
-                <Footer/>
+                <Navbar showSidedrawer={closeSideDrawerHandler}/>
+                <SideDrawer open={showSideDrawer} closed={closeSideDrawerHandler}/>
+                {/* <Footer/> */}
                 <Switch>
                     <Route exact path='/skills'>
                         <SkillsPage/>

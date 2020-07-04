@@ -18,8 +18,8 @@ const ProjectPage = (props) => {
         quiz themselves on medical prescriptions" img={projectPic}/>
       </Link>
 
-      <Project projectTitle="Title 2" projectDesc="some information 2" />
-      <Project projectTitle="Title 3" projectDesc="some information 3" />
+      <Project projectTitle="Burger Builder" projectDesc="A react/firebase application I created as part of a udemy course on react" />
+      <Project projectTitle="This website" projectDesc="Created and hosted from scratch by myself, with no use of styling libraries" />
     </div>
   );
 };
