@@ -2,7 +2,7 @@
 .nav{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: auto;
     background-color: #5CDB96;
     color: #05386b;
     height: 3em;
@@ -37,5 +37,6 @@
 
     .nav{
         display: inline-block;
+        width: 100%;
     }
 }

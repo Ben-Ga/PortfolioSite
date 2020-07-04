@@ -3,6 +3,7 @@ import React from 'react'
 import classes from '../styles/containers/nuscript.module.scss'
 
 import prscripSnap from '../res/scripSnap.JPG'
+import metricsSnap from '../res/fullMetrics.JPG'
 import ScrnBox from '../components/ScrnBox'
 
 const NUScript = () => {
@@ -19,6 +20,16 @@ const NUScript = () => {
                 therefore, pagination of these prescriptions was included in this project
                 "
                 splitFlag="|"
+            />
+
+            <ScrnBox
+                imgSrc={metricsSnap}
+                imgAlt={"image of various metrics for a NUScript user profile"}
+                desc="Pictured left are some of the user stats are metrics that are part of any
+                user's profile page | Using the public library Victory, I was able to create these sleek and responsive graphs and charts "
+                splitFlag="|"
+                linkName="Victory"
+                linkloc="https://github.com/FormidableLabs/victory"
             />
 
         </div>
