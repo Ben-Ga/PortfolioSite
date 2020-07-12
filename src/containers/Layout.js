@@ -11,6 +11,7 @@ import ProjectPage from './ProjectPage'
 import ContactPage from './ContactPage'
 import NUScript from './NUScript'
 import SideDrawer from '../UI/SideDrawer/SideDrawer'
+import Website from './Website'
 
 
 const Layout = () => {
@@ -42,6 +43,9 @@ const Layout = () => {
                     </Route>
                     <Route exact path='/projects/nuscript/'>
                         <NUScript/>
+                    </Route>
+                    <Route exact path='/projects/website/'>
+                        <Website/>
                     </Route>
                 </Switch>
             </BrowserRouter>

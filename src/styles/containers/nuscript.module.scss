@@ -3,6 +3,8 @@
 .container {
     background-color: lightcyan;
     margin-top: -48px;
+    //padding-left: 5%; //kind of magic number, maybe fix 
+
 }
 
 .container h3{
@@ -15,3 +17,10 @@
     font-size: 20px;
 }
 
+
+//If fix magic number this can be removed
+@media only screen and (max-width: 600px){
+    .container {
+        padding-left: 0;
+    }
+}
