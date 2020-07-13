@@ -19,13 +19,29 @@
     color: #5CDB95;
 }
 
-.info h4, .info_outline h4{
+.info_noborder{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    color: #5CDB95;
+}
+
+.info h4, .info_outline h4, .info_noborder h4{
     font-size: x-large;
     font-weight: 300;
     margin-top: 0;
 }
 
-.info p {
+.info li, .info_outline li, .info_noborder li{
+    font-size: x-large;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.info p .info_noborder p{
     margin-top: 0px;
     margin-left: 10px;
     font-size: large;
