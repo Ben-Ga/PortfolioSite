@@ -17,6 +17,7 @@ const InfoBox = (props) => {
         break;
       case 3:
         setStyle(classes.info_noborder)
+        break;
       default:
         break;
     }
