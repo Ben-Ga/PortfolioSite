@@ -12,6 +12,7 @@ import ContactPage from './ContactPage'
 import NUScript from './NUScript'
 import SideDrawer from '../UI/SideDrawer/SideDrawer'
 import Website from './Website'
+import BurgerBuilder from './BurgerBuilder'
 
 
 const Layout = () => {
@@ -46,6 +47,9 @@ const Layout = () => {
                     </Route>
                     <Route exact path='/projects/website/'>
                         <Website/>
+                    </Route>
+                    <Route exact path="/projects/burgerbuilder/">
+                        <BurgerBuilder/>
                     </Route>
                 </Switch>
             </BrowserRouter>

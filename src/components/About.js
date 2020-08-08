@@ -14,7 +14,7 @@ const About = (props) => {
         sectionTitle="Experience"
         sectionInfo="NUScript - March 2020 - July 2020.| Working as Front end web development intern for Newcastle University| Developing
                 a medical prescription generation and error simulation tool for students to use as a learing/revision tool (Please see project
-                  page for screenshots)|
+                  page for an indepth description & screenshots)|
                 Achieved using ReactJs, Django and MySql technologies |___________________________________________________________|
                 Bright Network Internship - June 2020 | In this short but valuable internship, myself and other students were given the
                 oppotunity to work alongside FANG companies (including Google, Amazon and Goldman Sachs) to develop our skills in agile development methods|

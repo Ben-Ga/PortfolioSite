@@ -5,6 +5,7 @@ import Project from "../components/Project";
 
 import projectPic from "../res/NUScriptLogo.JPG";
 import websitePic from "../res/websitePic.png";
+import burgerPic from '../res/burgerLogo.JPG'
 
 import { Link } from "react-router-dom";
 
@@ -26,10 +27,14 @@ const ProjectPage = (props) => {
         />
       </Link>
 
-      <Project
-        projectTitle="Burger Builder"
-        projectDesc="A react/firebase application I created as part of a udemy course on react"
-      />
+      <Link to="/projects/burgerbuilder/">
+        <Project
+          projectTitle="Burger Builder"
+          projectDesc="A react/firebase application I created as part of a udemy course on react"
+          img={burgerPic}
+        />
+      </Link>
+
       <Link to="/projects/website">
         <Project
           projectTitle="This website"
