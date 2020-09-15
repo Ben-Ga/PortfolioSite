@@ -6,7 +6,7 @@ import classes from "../styles/components/infobox.module.scss";
 const InfoBox = (props) => {
 
   const [styleVar, setStyle] = useState(classes.info)
-
+// eslint-disable-next-line
   useEffect(() => {
     switch (props.styleVariant) {
       case 1:

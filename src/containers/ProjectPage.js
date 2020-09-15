@@ -6,6 +6,7 @@ import Project from "../components/Project";
 import projectPic from "../res/NUScriptLogo.JPG";
 import websitePic from "../res/websitePic.png";
 import burgerPic from '../res/burgerLogo.JPG'
+import tomlkPic from '../res/tomlk.png'
 
 import { Link } from "react-router-dom";
 
@@ -40,6 +41,15 @@ const ProjectPage = (props) => {
           projectTitle="This website"
           projectDesc="Created and hosted from scratch by myself, with no use of styling libraries"
           img={websitePic}
+        />
+      </Link>
+      <Link to="/projects/tomlk">
+        <Project 
+          projectTitle="Tomlk"
+          projectDesc="A twitter/social network clone. Focusing on Authentication and Redux skills"
+          img={tomlkPic}
+          customWidth={250}
+          customHeight={250}
         />
       </Link>
     </div>

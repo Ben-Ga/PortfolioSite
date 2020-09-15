@@ -8,8 +8,9 @@
     height: 3em;
     margin-bottom: 3rem;
     border-radius: 1px;
-    font-size: large;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 400;
+    font-variant: small-caps;
 }
 
 .nav {
@@ -39,5 +40,6 @@
     .nav{
         display: inline-block;
         width: 100%;
+        min-width: 500px;
     }
 }

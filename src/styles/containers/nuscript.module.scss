@@ -3,6 +3,7 @@
 .container {
     background-color: lightcyan;
     margin-top: -48px;
+    min-width: 500px;
     //padding-left: 5%; //kind of magic number, maybe fix 
 
 }
@@ -17,10 +18,24 @@
     font-size: 20px;
 }
 
+.container iframe, video{
+    width: 48vw;
+    height: 27vw;
+    border: none;
+
+}
+
 
 //If fix magic number this can be removed
 @media only screen and (max-width: 600px){
     .container {
-        padding-left: 0;
+        padding-left: 5px;
+        width: 100%;
+    }
+
+    .container video{
+        width: 400px;
+        height: 200px;
     }
 }
+

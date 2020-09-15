@@ -7,6 +7,7 @@ import metricsSnap from "../res/fullMetrics.JPG";
 import resultsSnap from "../res/breakdownSnap.JPG";
 import ScrnBox from "../components/ScrnBox";
 import InfoBox from "../components/InfoBox";
+import NUScriptDemo from '../res/NUScriptDemo.mp4'
 
 const NUScript = () => {
   return (
@@ -47,9 +48,14 @@ const NUScript = () => {
         blackText
         alignCenter
       />
+      <h3>Video Demo</h3>
+
+
+      <video controls muted>
+        <source src={NUScriptDemo} type="video/mp4"/>
+      </video>
 
       <h3>Screenshots </h3>
-      <p>As the software is being used within house</p>
 
       <ScrnBox
         imgSrc={prscripSnap}

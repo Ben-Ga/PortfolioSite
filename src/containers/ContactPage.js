@@ -9,6 +9,8 @@ const Contact = (props) => {
       <h3>Emails</h3>
       <p>ben@bngallagher.co.uk</p>
       <p>b.gallagher@newcastle.ac.uk</p>
+      <hr/>
+
       <h3>Socials</h3>
       <a
         href="https://www.linkedin.com/in/ben-gallagher-5a826a190/"
@@ -17,7 +19,8 @@ const Contact = (props) => {
       >
         LinkedIn
       </a>
-      <br/>
+      
+      
       <a
         href="https://github.com/Ben-Ga"
         target="_blank"

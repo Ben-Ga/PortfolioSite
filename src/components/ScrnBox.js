@@ -1,7 +1,6 @@
 import React from "react";
 
 import classes from "../styles/components/scrn.module.scss";
-import Auxiliary from "../containers/Auxiliary";
 
 const ScrnBox = (props) => {
   return (

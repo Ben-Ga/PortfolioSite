@@ -21,7 +21,7 @@ const About = (props) => {
                 The experience culminated in a work sample in which we were tasked with researching methods for facial recognition, generating user stories,
                 assessing vulnerabilities and presenting a brief project roadmap for implementing this feature"
         splitFlag="|"
-        styleVariant={1}
+        styleVariant={2}
 
       />
 
@@ -29,7 +29,7 @@ const About = (props) => {
         sectionTitle="Key Hard Skills"
         sectionInfo="ReactJs: 1.5 year, Java: 4 Years, HTML & CSS: 3 Years, Git and version control, GSuite, C#"
         splitFlag=","
-        styleVariant={1}
+        styleVariant={2}
       />
       <InfoBox
         sectionTitle="Education"
@@ -38,7 +38,7 @@ const About = (props) => {
             Acheiving the grades ABB respectively|
             6As and 4Bs at GCSE level"
         splitFlag="|"
-        styleVariant={1}
+        styleVariant={2}
       />
     </div>
   );

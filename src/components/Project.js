@@ -16,7 +16,17 @@ const Project = (props) => {
           <h4>{props.projectTitle}</h4>
           <p>{props.projectDesc}</p>
         </div>
-      ) : <img src={props.img} alt={"tempAlt"} style={{width: 'inherit', height: 'inherit', borderRadius: '20px'}}/>}
+      ) : (
+        <img
+          src={props.img}
+          alt={"tempAlt"}
+          style={
+            props.customHeight && props.customWidth
+              ? { width: props.customWidth, height: props.customHeight, borderRadius: '20px', margin: 'auto' }
+              : { width: "inherit", height: "inherit", borderRadius: "20px" }
+          }
+        />
+      )}
     </div>
   );
 };
