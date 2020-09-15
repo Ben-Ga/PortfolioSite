@@ -48,16 +48,24 @@
 
 @media only screen and (max-width: 600px){
     .imgBox{
-        width: 100vw;
-
+        width: 90vw;
+        margin: auto;
+        padding: 0;
     }
 
     .imgBox img{
-        width: 100vw;
+        width: 100%;
+        margin-bottom: 5vh;
     }
+
+
+
+}
+
+
+@media only screen and (max-width: 1400px){
 
     .textBoxes p {
-        width: 40vw;   
+        display: none;
     }
-
 }

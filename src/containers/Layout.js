@@ -5,7 +5,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Auxiliary from './Auxiliary'
 import About from '../components/About'
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import SkillsPage from './SkillsPage'
 import ProjectPage from './ProjectPage'
 import ContactPage from './ContactPage'
@@ -13,6 +12,7 @@ import NUScript from './NUScript'
 import SideDrawer from '../UI/SideDrawer/SideDrawer'
 import Website from './Website'
 import BurgerBuilder from './BurgerBuilder'
+import Tomlk from './Tomlk'
 
 
 const Layout = () => {
@@ -50,6 +50,9 @@ const Layout = () => {
                     </Route>
                     <Route exact path="/projects/burgerbuilder/">
                         <BurgerBuilder/>
+                    </Route>
+                    <Route exact path="/projects/tomlk/">
+                        <Tomlk/>
                     </Route>
                 </Switch>
             </BrowserRouter>

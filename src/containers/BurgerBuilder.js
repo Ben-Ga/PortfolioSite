@@ -2,7 +2,6 @@ import React from "react";
 
 import classes from "../styles/containers/burger.module.scss";
 import InfoBox from "../components/InfoBox";
-import ScrnBox from "../components/ScrnBox";
 
 const BurgerBuilder = (props) => {
   return (
@@ -14,7 +13,9 @@ const BurgerBuilder = (props) => {
                 that used many of the techniques, practices and features of a modern day web application.|This includes conditional rendering, 
                 making http requests to send and recieve data, using non-relational databases, using alternate data stores such as Redux and
                 React Context. Furthermore, with the help of course I was able to get a better understanding of proper error handling, e.g how to
-                fail quickly/quitely aswell as responsive design with mobile/small screens in mind."
+                fail quickly/quitely aswell as responsive design with mobile/small screens in mind. |The last stages of this project involved bringing
+                in authentication, user accounts, local storage for persistant logins, gaurding routes and filtering data fetched from firebase
+                depending on user tokens."
         splitFlag="|"
         styleVariant={3}
         alignCenter

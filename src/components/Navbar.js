@@ -7,7 +7,7 @@ import classes from "../styles/components/navbar.module.scss";
 
 const Navbar = (props) => {
   return (
-    <div>
+    <div style={{minWidth: '500px', }}>
       <nav className={classes.nav}>
         <Menu clicked={props.showSidedrawer} />
         <Link to="/">
