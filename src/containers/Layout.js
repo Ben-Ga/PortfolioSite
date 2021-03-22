@@ -13,7 +13,7 @@ import SideDrawer from '../UI/SideDrawer/SideDrawer'
 import Website from './Website'
 import BurgerBuilder from './BurgerBuilder'
 import Tomlk from './Tomlk'
-
+import AnimalDash from './projects/AnimalDash'
 
 const Layout = () => {
 
@@ -53,6 +53,9 @@ const Layout = () => {
                     </Route>
                     <Route exact path="/projects/tomlk/">
                         <Tomlk/>
+                    </Route>
+                    <Route exact path="/projects/animal-dashboard/">
+                        <AnimalDash />
                     </Route>
                 </Switch>
             </BrowserRouter>

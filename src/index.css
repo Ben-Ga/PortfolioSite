@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(180deg, rgba(213,240,193,1) 39%, rgba(161,224,237,1) 100%);
-
+  background-color: #f0f8ff;
 }
 
 code {

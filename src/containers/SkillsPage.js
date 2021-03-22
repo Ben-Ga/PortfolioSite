@@ -20,7 +20,8 @@ const SkillsPage = (props) => {
       <InfoBox 
       sectionTitle="Hard Skills" 
       sectionInfo="Java - my most comfortable object oreintated language |ReactJs - most used modern web library|
-      HTML & CSS| Django - recent exposure to this in my recent internship| MySQL - relational database experience" 
+      HTML & CSS| Django - recent exposure to this in my recent internship| MySQL - relational database experience
+      |Keras + Tensorflow - final year project uses these technologies" 
       splitFlag="|" 
       styleVariant={2}
       images={logos}

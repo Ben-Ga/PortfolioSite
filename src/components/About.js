@@ -27,13 +27,15 @@ const About = (props) => {
 
       <InfoBox
         sectionTitle="Key Hard Skills"
-        sectionInfo="ReactJs: 1.5 year, Java: 4 Years, HTML & CSS: 3 Years, Git and version control, GSuite, C#"
+        sectionInfo="ReactJs: 2 years, Java: 4 Years, HTML & CSS: 3 Years, Git and version control, GSuite, C#"
         splitFlag=","
         styleVariant={2}
       />
       <InfoBox
         sectionTitle="Education"
-        sectionInfo="I am currently a 2nd year computer science student, studying at Newcastle Universtiy.
+        sectionInfo="I am currently a 3rd year computer science student, studying at Newcastle Universtiy.|
+            My dissertation is in the field of deep learning and focuses on optimisation of siamese neural networks
+            for fine-grained image classification|
             |Studied Computer Science, Economics and Modern History at A level|
             Acheiving the grades ABB respectively|
             6As and 4Bs at GCSE level"
