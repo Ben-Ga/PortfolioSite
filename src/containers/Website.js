@@ -1,16 +1,13 @@
 import React from "react";
 
-import classes from "../styles/containers/website.module.scss";
+import classes from "../styles/containers/project_base.module.scss";
 import InfoBox from "../components/InfoBox";
 
 const Website = (props) => {
   return (
-    <div className={classes.container}>
-      <h3>How I made this website</h3>
+    <div className={classes.base_container}>
+      <h1>How I made this website</h1>
 
-      <p>
-
-      </p>
       <InfoBox
         sectionTitle="Overview"
         sectionInfo="This is not a cookie-cutter website, it was created completely from
@@ -19,9 +16,9 @@ const Website = (props) => {
         repository which shows all the code I wrote for it, along with all the seperate commits
         over a period of months adding bits and pieces |Furthermore I make my own manual updates/changes to the hosting
         fileserver to create changes to my website"
-        styleVariant={3}
-        titleLeft
+        styleVariant={2}
         blackText
+        alignCenter
         splitFlag="|"
       />
       <a

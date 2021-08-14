@@ -1,0 +1,23 @@
+
+
+.base_container {
+    background-color: #3c4446;
+    margin-top: -48px; //needs fixing
+}
+
+.base_container h3, h1{
+    font-size: xx-large;
+    font-weight: 400;
+    padding: 20px;
+    color: honeydew;
+}
+
+
+.base_container a{
+    color: whitesmoke;
+}
+
+.base_container a:hover{
+    color: red;
+    transition: 1s ease-in-out;
+}

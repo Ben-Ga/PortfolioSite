@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background-color: #f0f8ff;
+  background-color: #303030;
+  background-image: url('./res//background-v4.png');
 }
 
 code {

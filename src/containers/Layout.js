@@ -14,6 +14,8 @@ import Website from './Website'
 import BurgerBuilder from './BurgerBuilder'
 import Tomlk from './Tomlk'
 import AnimalDash from './projects/AnimalDash'
+import StockNotif from './projects/StockNotif'
+import GoogleChallenge from './projects/GoogleChallenge'
 
 const Layout = () => {
 
@@ -56,6 +58,12 @@ const Layout = () => {
                     </Route>
                     <Route exact path="/projects/animal-dashboard/">
                         <AnimalDash />
+                    </Route>
+                    <Route exact path="/projects/stock-notif">
+                        <StockNotif/>
+                    </Route>
+                    <Route exact path="/projects/google-challenge">
+                        <GoogleChallenge />
                     </Route>
                 </Switch>
             </BrowserRouter>

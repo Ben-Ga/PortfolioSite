@@ -6,9 +6,9 @@ const ScrnBox = (props) => {
   return (
     <div className={classes.scrbox}>
       <div className={classes.imgBox}>
-        <img alt={props.imgAlt} src={props.imgSrc} style={props.customImgWidth ? {width: props.customImgWidth} : null}/>
+        <img alt={props.imgAlt} src={props.imgSrc} style={props.customImgWidth ? {width: props.customImgWidth, height: props.customImgHeight} : null}/>
       </div>
-      <div className={classes.textBoxes}>
+      {props.desc !== "" ? (<div className={classes.textBoxes}>
         {props.desc.split(props.splitFlag).map((section) => {
           return <p>{section}</p>;
         })}
@@ -20,7 +20,8 @@ const ScrnBox = (props) => {
         >
           {props.linkName}
         </a>
-      </div>
+      </div>) : null}
+      
     </div>
   );
 };

@@ -8,6 +8,8 @@ import websitePic from "../res/websitePic.png";
 import burgerPic from '../res/burgerLogo.JPG'
 import tomlkPic from '../res/tomlk.png'
 import aDash from '../res/ad-logo.JPG'
+import stockLogo from '../res/SNLogo.png'
+import challengePic from '../res/java-peek.JPG'
 
 import { Link } from "react-router-dom";
 
@@ -28,14 +30,13 @@ const ProjectPage = (props) => {
           img={projectPic}
         />
       </Link>
-
-      <Link to="/projects/burgerbuilder/">
+      <Link to="/projects/stock-notif">
         <Project
-          projectTitle="Burger Builder"
-          projectDesc="A react/firebase application I created as part of a udemy course on react"
-          img={burgerPic}
-          customWidth={250}
-          customHeight={200}
+          projectTitle="Stock Notif"
+          projectDesc="An stock monitoring dashboard with IoT functionality through an Arduino & flask api"
+          customHeight={150}
+          customWidth={150}
+          img={stockLogo}
         />
       </Link>
       <Link to="/projects/animal-dashboard">
@@ -56,6 +57,16 @@ const ProjectPage = (props) => {
           customHeight={250}
         />
       </Link>
+      
+      <Link to="/projects/burgerbuilder/">
+        <Project
+          projectTitle="Burger Builder"
+          projectDesc="A react/firebase application I created as part of a udemy course on react"
+          img={burgerPic}
+          customWidth={250}
+          customHeight={200}
+        />
+      </Link>
       <Link to="/projects/website">
         <Project
           projectTitle="This website"
@@ -63,6 +74,17 @@ const ProjectPage = (props) => {
           img={websitePic}
         />
       </Link>
+
+      <Link to="/projects/google-challenge">
+        <Project
+          projectTitle="Google Coding Challenge"
+          projectDesc="A Java sample completed for Google as part of a Bright Network internship"
+          img={challengePic}
+          customHeight={250}
+          customWidth={337}
+        />
+      </Link>
+
     </div>
   );
 };

@@ -19,11 +19,11 @@ const SkillsPage = (props) => {
 
       <InfoBox 
       sectionTitle="Hard Skills" 
-      sectionInfo="Java - my most comfortable object oreintated language |ReactJs - most used modern web library|
+      sectionInfo="Java - my most comfortable object oreintated language |ReactJs - peference of web library|
       HTML & CSS| Django - recent exposure to this in my recent internship| MySQL - relational database experience
       |Keras + Tensorflow - final year project uses these technologies" 
       splitFlag="|" 
-      styleVariant={2}
+      styleVariant={4}
       images={logos}
       hasImages={true}
       />
@@ -33,7 +33,7 @@ const SkillsPage = (props) => {
       on how to reach me for these)|Experience in managing small teams|Ability to work effecitively in a remote position|Ability to work in agile
       envirnoments" 
       splitFlag="|" 
-      styleVariant={2}/>
+      styleVariant={4}/>
       <InfoBox
         sectionTitle="Skills I'm working towards"
         sectionInfo="Express - Currently working more with Express as it pairs so well with React apps|
@@ -42,7 +42,7 @@ const SkillsPage = (props) => {
         Firebase/MongoDB - non relational database solutions are something I am looking to work with in the future, Mongo, in use
         with the MERN stack in particular"
         splitFlag="|"
-        styleVariant={2}
+        styleVariant={4}
       />
     </div>
   );

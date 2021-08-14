@@ -3,12 +3,13 @@
 .container h3{
     font-size: x-large;
     font-weight: 400;
-    color: #28806D;
+    color: honeydew;
 }
 
 .container a{
     text-decoration: none;
-    font-size: x-large;
+    font-size: large;
+    color: whitesmoke;
     display: block;
     padding-bottom: 3vh;
 }
@@ -17,6 +18,10 @@
     padding-bottom: 50vh;
     text-align: left;
     padding-left: 6vw;
+}
+
+.container p {
+    color: #798F9A;
 }
 
 .container hr {
@@ -32,4 +37,6 @@
     color: red;
     -webkit-transition: color 0.5s;
 }
+
+
 

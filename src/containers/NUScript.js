@@ -17,9 +17,8 @@ const NUScript = () => {
         sectionTitle="Project Outline"
         sectionInfo="NUScript was a 5 month Web Development Internship that I took part in during my second year of university.
                 Although the scope of the project was rather extensive, a brief outline could be detailed as: | A web app, capable of generating
-                accurate medical prescriptions with styling true to form. The app allows for students then to spot clinical and legal errors that
-                an algorithm has randomly inserted within a quiz like format. A student is then able to review and reflect on their performance with 
-                use of user statistics and access to previous answers|
+                accurate medical prescriptions with styling true to form. Allow for students to spot clinical and legal errors that
+                inserted by an algorithm in a quiz like format. Generate metrics to allow for users to review and reflect on their performance.|
                 "
         splitFlag="|"
         styleVariant={2}
@@ -30,7 +29,7 @@ const NUScript = () => {
       <InfoBox
         sectionTitle="Technologies Used"
         sectionInfo=" Myself and one other Intern were the sole developers of this project, utilising React and Django
-                to achieve the final result, within these Webpack, Sass and CSS Modules were also used. | During this project I also made great leaps in my understanding of version control,
+                to deliver to application. Additionally Webpack, Sass and CSS Modules were used. | During this project I also made great leaps in my understanding of version control,
                  specifically GitHub as proper use of branches and merging was vital for managing the different sections/features of the app that each of each would be focused on at any one time.|"
         splitFlag="|"
         styleVariant={2}
@@ -40,9 +39,10 @@ const NUScript = () => {
 
       <InfoBox
         sectionTitle="Development Process"
-        sectionInfo="In terms of the development methodologies used during this project, it was a mix of Rapid Application Development and Agile, most weeks we would have
-                a new prototype to showcase and gather feedback on, we found this style of development very condusive to ironing out any miscommunication of features
-                before they got too big, it also kept stakeholders very engaged and interested in the process."
+        sectionInfo="A mixture of Rapid Application Development and Agile methodologies were utilitsed, most weeks we would have
+                a new prototype to showcase and gather feedback on.|This style of development was very condusive to ironing out any miscommunication of features
+                before they got too big, it also kept stakeholders very engaged and interested in the process.| We made use of the Trello
+                platform to seperate out tasks and track our sprint progress."
         splitFlag="|"
         styleVariant={2}
         blackText
@@ -84,7 +84,7 @@ const NUScript = () => {
         desc="Pictured left is an example of what a student would see upon clicking a div for one of their previous quizzes, a breakdown
                 of the exact questions asked and answers given"
         splitFlag="|"
-        customImgWidth={410}
+        customImgWidth={381}
       />
     </div>
   );

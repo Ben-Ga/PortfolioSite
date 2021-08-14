@@ -6,7 +6,7 @@ import InfoBox from "../components/InfoBox";
 const BurgerBuilder = (props) => {
   return (
     <div className={classes.container}>
-      <h3>Burger Builder</h3>
+      <h1>Burger Builder</h1>
       <InfoBox
         sectionTitle="Project Outline"
         sectionInfo="This project was completed with the help of a udemy course, Its purpose was to be an all encompassing wep app 
@@ -17,12 +17,12 @@ const BurgerBuilder = (props) => {
                 in authentication, user accounts, local storage for persistant logins, gaurding routes and filtering data fetched from firebase
                 depending on user tokens."
         splitFlag="|"
-        styleVariant={3}
+        styleVariant={2}
         alignCenter
         blackText
       />
 
-      <h3>Below you can see a fully embedded version of this application</h3>
+      <h2>Below you can see a fully embedded version of this application</h2>
       <p style={{marginLeft: '100px', marginRight: '100px'}}>This project is currently being hosted on github pages, and is linked to a firebase real-time databases
           so any orders that you place, will be sent there, and can are retreived and shown on the orders page
       </p>

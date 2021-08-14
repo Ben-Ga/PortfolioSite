@@ -1,25 +1,38 @@
 @import '../vars/containervars.scss';
 
 .aboutContainer {
-    background-color: $containerBColor;
+    // background-color: $containerBColor;
+    background-color: rgba(32, 32, 32, 0.726);
     width: $containerWidths;
     margin: $containerMargins;
     border-radius: 5px;
     text-align: left;
 }
 
-.aboutContainer h3, h2{
-    color: #596475;
+.aboutContainer h2{
+    color: honeydew;
     padding-left: 10px;
     font-weight: 300;
     font-size: xx-large;
+}
+
+.aboutContainer h3{
+    color: $titleGreenHue;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.aboutContainer h1, h2{
+    font-weight: 400;
+    padding-left: 10px;
+    color: honeydew;
 }
 
 .aboutContainer h2 {
     font-size: x-large;
 }
 
-@media only scrren and (max-width: 600px){
+@media only sceen and (max-width: 600px){
     .aboutContainer{
         width: $mobileWidth;
     }
