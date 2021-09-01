@@ -1,12 +1,14 @@
 
+
+
 .nav{
     display: flex;
-    justify-content: space-evenly;
-    width: auto;
-    background-color: #a0c2a4;
+    width: 100%;
     color: #05386b;
+    background-color: #8bce93;
+    justify-content: space-evenly;
     height: 3em;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     border-radius: 1px;
     font-size: 22px;
     font-weight: 400;
@@ -14,11 +16,9 @@
 }
 
 .nav {
-    padding: 5px;
     padding-top: 10px;
 
 }
-
 
 .nav div:hover{
     opacity: 0.6;
@@ -32,14 +32,21 @@
     color: inherit;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .nav a{
         display: none;
     }
 
     .nav{
         display: inline-block;
-        width: 100%;
-        min-width: 500px;
+        width: auto;
+        min-width: 600;
+        background-color: #202020;
+        padding-top: 0px;
+    }
+
+    .nav_container{
+        display: flex;
+        margin-left: 3%;
     }
 }

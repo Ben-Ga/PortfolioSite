@@ -3,6 +3,11 @@
 .scrbox{
     display: flex;
     justify-content: center;
+    text-align: left;
+}
+
+.scrbox .mobileLink{
+    text-align: left;
 }
 
 .imgBox{
@@ -36,6 +41,16 @@
     animation-timing-function: linear;
 }
 
+.mobileLink{
+    color: rgb(106, 106, 209) !important;
+    font-size: large;
+    text-decoration: underline;
+    font-weight: 600;
+    margin: auto;
+    margin-left: 25%; //why
+
+}
+
 @keyframes fadein{
     from {opacity: 0;}
     to {opacity: 1;}
@@ -47,19 +62,16 @@
 }
 
 @media only screen and (max-width: 600px){
-    .imgBox{
-        width: 90vw;
-        margin: auto;
-        padding: 0;
-    }
 
     .imgBox img{
-        width: 100%;
-        margin-bottom: 5vh;
+        display: none;
     }
+}
 
-
-
+@media only screen and (min-width: 600px){
+    .mobileLink{
+        display: none;
+    }
 }
 
 

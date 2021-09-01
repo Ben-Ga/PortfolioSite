@@ -73,7 +73,8 @@ const StockNotif = (props) => {
         imgSrc={stockDash}
         customImgHeight={415}
         customImgWidth={620}
-        desc=""
+        desc="Screenshot 1"
+        isLarge
       />
       
       <ScrnBox
@@ -81,7 +82,8 @@ const StockNotif = (props) => {
         imgSrc={stockSearch}
         customImgHeight={920}
         customImgWidth={923}
-        desc=""
+        desc="Screenshot 2"
+        isLarge
       />
     </div>
   );
