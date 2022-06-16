@@ -21,6 +21,7 @@ const AnimalDash = (props) => {
         alignCenter
         blackText
       />
+      <a href="https://ben-ga.github.io/Animals-Dashboard/">Try it out</a>
 
       <ScrnBox
         split=""
